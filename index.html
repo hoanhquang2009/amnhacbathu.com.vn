@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Của Tui</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i class='bx bx-chevron-down'></i>
+            <span>Chơi Nhạc Bây Giờ</span>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+        </div>
+        <div class="img-area">
+            <img src="" alt="">
+        </div>
+        <div class="song-details">
+            <p class="name">Độ Tộc 2</p>
+            <p class="artist">Mixi Gaming</p>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+            </div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration">3:20</span>
+                <audio id="main-audio" src=""></audio>
+            </div>
+        </div>
+        <div class="control">
+            <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+            <div class="play-pause">
+                <i class="material-icons play">play_arrow</i>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="more-music" class="material-icons">queue_music</i>
+        </div>
+        <div class="music-list">
+            <div class="header">
+                <div class="row">
+                    <i class='bx bxs-playlist'></i>
+                    <span>Music List</span>
+                </div>
+                <i class='bx bx-x' id="close"></i>
+            </div>
+            <ul>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <script src="./js/music-list.js"></script>
+    <script src="./js/scriptjs.js"></script>
+</body>
+
+</html>
